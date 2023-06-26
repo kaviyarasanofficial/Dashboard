@@ -1,0 +1,79 @@
+.contain {
+    background-color: rgb(255, 255, 255);
+    max-width: 1090px;
+    height: 860px;
+    margin-left: 230px;
+    margin-right: auto;
+    padding: 3em;
+    border-radius: 49px;
+  }
+.btn-primary{
+  background:  blueviolet;
+}
+
+.btn-outline-primary{
+  margin-left: 18px;
+  border-color: blueviolet;
+  color: blueviolet;
+}
+.upload{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.uptxt{
+  margin-left: 60px;
+  margin-top: -27px;
+}
+
+.add{
+  margin-left: 350px;
+  margin-top: -60px;
+}
+
+/* .add1{
+  margin-left: -490px;
+  margin-top: 10px;
+}
+.add2{
+ 
+  margin-top: 10px;
+} */
+
+
+.alert {
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-color: blueviolet;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: rgb(19, 18, 18);
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.fa fa-search{
+  margin-bottom: -30px;
+}
+
+
+
+.select {
+  padding-left: -2px;
+  padding-top: 4px;
+  margin-right: 60px;
+  width: 300px;
+  
+  /* position: absolute; */
+}

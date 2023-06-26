@@ -1,0 +1,228 @@
+.table-container {
+    
+    margin: -32px 50px ;
+      max-width: 80px;
+      position:absolute;
+      z-index: -1;
+    }
+    
+    .progress-table {
+      width: 10%;
+      border-collapse: collapse;
+    }
+    
+    .progress-table td {
+      padding: 40px;
+      vertical-align: middle;
+    }
+    
+    .step {
+      text-align: center;
+      line-height:15;
+      position: relative;
+    }
+    
+    .step-circle {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #ccc;
+      position: relative;
+      z-index: 2;
+      margin-top: 19px; /* Adjust the margin to touch the line */
+    }
+    .step-circle1 {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      position: relative;
+      top:-510px;
+      z-index: 2;
+      margin-top: 59px; /* Adjust the margin to touch the line */
+    }
+  
+        .step-circle2{
+            display: inline-block;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background-color: #ffffff;
+          position: relative;
+          top:-360px;
+          z-index: 2;
+          margin-top: 49px; /* Adjust the margin to touch the line */
+        }
+        .step-circle3{
+            display: inline-block;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background-color: #ffffff;
+          position: relative;
+          top:-280px;
+          z-index: 2;
+          margin-top: 49px; /* Adjust the margin to touch the line */
+        }
+        .step-circle4{
+            display: inline-block;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background-color: #ffffff;
+          position: relative;
+          top:-70px;
+          z-index: 2;
+          margin-top: 19px; /* Adjust the margin to touch the line */
+        }
+    
+
+    .step.completed .step-circle {
+      background-color: #36ee12;
+    }
+    
+    .step.in-progress .step-circle {
+      background-color: #159895;
+    }
+    
+    .progress-cell {
+      position: relative;
+      z-index: 1;
+    }
+    
+    .progress-bar {
+      position: absolute;
+      top: -50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 3px;
+      height: 150%;
+      background-color: #afaeae;
+      z-index: 0;
+    }
+    
+    .progress-bar:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1px;
+      height: 100%;
+      background-color: #ccc;
+      z-index: -1;
+    }
+    
+.submit-button1 {
+    position: absolute;
+    top: -126%;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    padding: 20;
+    width: 55px;
+    height: 32px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: black;
+    z-index: -1;
+    border-color: blueviolet;
+  }
+
+  .submit-button2 {
+    position: absolute;
+    top: -220px;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    padding: 20;
+    width: 55px;
+    height: 32px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: black;
+    z-index: -1;
+    border-color: blueviolet;
+  }
+
+  .submit-button3 {
+    position: absolute;
+    top: -140px;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    padding: 20;
+    width: 55px;
+    height: 32px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: black;
+    z-index: -1;
+    border-color: blueviolet;
+  }
+
+  .submit-button4 {
+    position: absolute;
+    top: 70px;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    padding: 20;
+    width: 55px;
+    height: 32px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: black;
+    z-index: -1;
+    border-color: blueviolet;
+  }
+  
+  .line-connection {
+    position: absolute;
+    top: -100%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 3px;
+    background-color: #afaeae;
+    z-index: -1;
+  }
+
+  .l1{
+    position: absolute;
+    top: -370px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 3px;
+    background-color:  #afaeae;
+    z-index: -3;
+  }
+  .l2{
+    position: absolute;
+    top: -220px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 3px;
+    background-color:  #afaeae;
+    z-index: -3;
+  }
+  .l3{
+    position: absolute;
+    top: -138px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 3px;
+    background-color:  #afaeae;
+    z-index: -3;
+  }
+  .l4{
+    position: absolute;
+    top: 70px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 3px;
+    background-color: #afaeae;
+    z-index: -3;
+  }

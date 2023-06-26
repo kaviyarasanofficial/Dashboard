@@ -1,0 +1,13 @@
+.contain {
+  background-color: rgb(255, 255, 255);
+  max-width: 1090px;
+  margin-left: 230px;
+  margin-right: auto;
+  padding: 3em;
+  border-radius: 49px;
+ 
+}
+.text{
+  bottom: 10px;
+  margin-bottom: 11px;
+}
